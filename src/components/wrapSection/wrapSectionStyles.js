@@ -7,12 +7,13 @@ export default {
     justify-content: center;
     align-items: center;
     padding: 0;
-    margin: 0 auto;
+    margin: 0 auto 20px;
     width: 50%;
     height: auto;
     list-style: none;
   `,
   Title: styled.h2`
-    font-size: 20px;
+    font-size: 30px;
+    margin: 20px auto;
   `,
 };

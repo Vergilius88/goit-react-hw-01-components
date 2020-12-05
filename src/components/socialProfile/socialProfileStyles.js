@@ -1,19 +1,18 @@
 import styled from "styled-components";
 
 export default {
-  Article: styled.article`
+  Article: styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0;
+    padding-top: 20px;
     margin: 0 auto;
     width: 400px;
-    height: 400px;
     list-style: none;
     border-radius: 4px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0px 1px 3px 0px rgba(1, 1, 222, 1);
+    border: solid 1px;
+    background-color: rgba(34, 255, 50, 0.1);
   `,
   Description: styled.div`
     margin-bottom: 25px;
@@ -29,7 +28,7 @@ export default {
   P: styled.p`
     font-size: 14px;
     font-family: "Lato";
-    color: rgb(118, 134, 150);
+    color: rgb(60, 60, 60);
     line-height: 2.286;
     text-align: center;
   `,
@@ -48,20 +47,22 @@ export default {
   Count: styled.span`
     font-size: 14px;
     font-family: "Lato";
-    color: rgb(31, 51, 73);
+    color: rgb(60, 60, 60);
     line-height: 2.286;
     text-align: center;
   `,
   Stats: styled.ul`
     display: flex;
     justify-content: space-between;
+    background-color: rgba(34, 129, 212, 0.3);
     width: 100%;
   `,
   Li: styled.li`
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: solid 1px grey;
     width: 100%;
-    margin: 0 5px;
+    margin: 0;
   `,
 };

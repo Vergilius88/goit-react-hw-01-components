@@ -12,8 +12,8 @@ const mystyle = {
     height: auto;
     list-style: none;
     border-radius: 4px;
+    border: solid 1px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0px 1px 3px 0px ${({ rgb }) => rgb};
   `,
   Thead: styled.thead`
     display: flex;
@@ -21,9 +21,9 @@ const mystyle = {
     justify-content: center;
     align-items: baseline;
     width: 100%;
-    height: 100px;
+    height: 50px;
     margin-bottom: 10px;
-    background-color: rgb(24, 145, 214);
+    background-color: rgb(60, 60, 60);
   `,
   Tbody: styled.tbody`
     display: flex;
